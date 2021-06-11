@@ -1,0 +1,37 @@
+body { 
+    width: fit-content;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 0;
+    background-color: antiquewhite;
+ 
+}
+.prompt {text-align:right; font-size: xx-large;}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 800px;
+    height: 800px;
+
+}
+
+.grid-items {background-color:honeydew;}
+
+#box1,#box3,#box5,#box7,#box13,#box2,#box4,#box8,#box14,#box6,#box12 {border-top: 3px solid black}
+
+#box1,#box3,#box5,#box7,#box13,#box15,#box10,#box11,#box7,#box12 {border-left: 3px solid black}
+
+#box2,#box4,#box8,#box14,#box10,#box11,#box6,#box16,#box12 {border-right: 3px solid black} 
+
+#box1,#box3,#box5,#box7,#box13,#box15,#box4,#box8,#box14,#box2,#box10, #box11, #box16{border-bottom: 3px solid black} 
+
+#box9 {border: 3px solid black;}
+
+#box1,#box3,#box5,#box7,#box13,#box15 {border-right: 1px solid gray;}
+
+#box10,#box11,#box16 {border-top: 1 px solid gray;} 
+
+#box12, #box6, #box7 {border-bottom: 1px solid gray;}
